@@ -1,15 +1,7 @@
-# Idea project files
+/.gradle
+/.idea
+/out
+/build
 *.iml
-.idea/
-
-# Gradle files
-out/
-build/
-.gradle/
-
-# Generated sources
-src/generated
-
-# OS specific
-.DS_Store
-
+*.ipr
+*.iws
