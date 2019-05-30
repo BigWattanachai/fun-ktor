@@ -23,6 +23,7 @@ version '1.0-SNAPSHOT'
 repositories {
     mavenLocal()
     jcenter()
+    mavenCentral()
 }
 
 dependencies {
@@ -31,6 +32,11 @@ dependencies {
     // Ktor
     compile "io.ktor:ktor-server-netty:$ktor_version"
     testCompile "io.ktor:ktor-server-test-host:$ktor_version"
+
+    // Koin
+    compile "org.koin:koin-ktor:$koin_version"
+    compile "org.koin:koin-logger-slf4j:$koin_version"
+    testCompile "org.koin:koin-test:$koin_version"
 
     // Logging
     compile "ch.qos.logback:logback-classic:1.2.1"
