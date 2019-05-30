@@ -18,7 +18,6 @@ fun main(args: Array<String>) {
     embeddedServer(Netty, commandLineEnvironment(args)).start()
 }
 
-
 fun Application.main() {
     // Install Ktor features
     install(DefaultHeaders)
