@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../Kotlin-Workflow" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../Works/reactive-seed-server" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../getting-started-koin-ktor" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../helper/jirexpo" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../kotlin-ktor-exposed-starter" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../sso" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../test/lastfm" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../test/lastfm/last-server" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/LineThailand/lineman-parcel-admin" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/big-work/BoostSDK" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/big-work/arrow-flux" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/big-work/awesome-kotlin" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/big-work/biostudies-backend-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/big-work/biostudies-backend-services" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/big-work/fsr-kotlin-coffee-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/big-work/kotlin-swagger-spring-functional-template" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/big-work/spring-kotlin-functional" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/big-work/spring-r2dbc-example-application" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/big-work/syfonarmesteleder" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/lawsuit-service" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/lineman-parcel" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-300" />
+    <option name="y" value="-1440" />
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+</project>
