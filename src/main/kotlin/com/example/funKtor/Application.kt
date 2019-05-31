@@ -2,7 +2,7 @@ package com.example.funKtor
 
 import com.example.funKtor.common.InputError
 import com.example.funKtor.config.jacksonConfig
-import com.example.funKtor.module.funKtorModule
+import com.example.funKtor.module.mainModule
 import com.example.funKtor.module.helloModule
 import io.ktor.application.Application
 import io.ktor.application.call
@@ -39,7 +39,7 @@ fun Application.main() {
     }
     install(Koin) {
         slf4jLogger()
-        modules(funKtorModule)
+        modules(mainModule)
     }
     install(ContentNegotiation) {
         jacksonConfig()

@@ -3,8 +3,6 @@ package com.example.funKtor.controller
 import com.example.funKtor.model.Item
 import com.example.funKtor.model.Model
 import com.example.funKtor.service.HelloService
-import com.github.kittinunf.fuel.Fuel
-import com.github.kittinunf.fuel.coroutines.awaitString
 import io.ktor.application.call
 import io.ktor.http.ContentType
 import io.ktor.response.respond
@@ -26,8 +24,7 @@ fun Routing.helloController() {
     }
 
     get("/v1/rockets") {
-        val rockets = Fuel.get("https://api.spacexdata.com/v3/rockets").awaitString()
-        call.respondText(rockets, ContentType.Application.Json)
+        call.respondText(service.getRockets(), ContentType.Application.Json)
     }
 }
 
