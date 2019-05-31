@@ -13,7 +13,8 @@ import io.ktor.routing.Routing
 import io.ktor.routing.get
 import org.koin.ktor.ext.inject
 
-fun Routing.helloApi() {
+fun Routing.helloController() {
+
     val service by inject<HelloService>()
 
     get("hello") {
