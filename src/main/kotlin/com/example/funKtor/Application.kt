@@ -1,10 +1,12 @@
 package com.example.funKtor
 
+import com.example.funKtor.config.jacksonConfig
 import com.example.funKtor.controller.helloApi
 import com.example.funKtor.module.funKtorModule
 import io.ktor.application.Application
 import io.ktor.application.install
 import io.ktor.features.CallLogging
+import io.ktor.features.ContentNegotiation
 import io.ktor.features.DefaultHeaders
 import io.ktor.routing.routing
 import io.ktor.server.engine.commandLineEnvironment
@@ -25,6 +27,9 @@ fun Application.main() {
     install(Koin) {
         slf4jLogger()
         modules(funKtorModule)
+    }
+    install(ContentNegotiation) {
+        jacksonConfig()
     }
 
     // Routing section
