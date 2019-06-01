@@ -53,6 +53,17 @@ dependencies {
     implementation "com.github.kittinunf.fuel:fuel:$fuel_version"
     implementation "com.github.kittinunf.fuel:fuel-coroutines:$fuel_version"
 
+    //exposed
+    compile "org.jetbrains.exposed:exposed:$exposed_version"
+
+    //database
+    compile "com.h2database:h2:$h2_version"
+    compile "com.zaxxer:HikariCP:$hikari_version"
+    
+    compile "org.mindrot:jbcrypt:$jbcrypt_version"
+    compile "am.ik.yavi:yavi:$yavi_version"
+
+
 }
 
 compileKotlin {

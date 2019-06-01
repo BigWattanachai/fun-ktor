@@ -18,6 +18,7 @@ import io.ktor.response.respondText
 import io.ktor.server.engine.commandLineEnvironment
 import io.ktor.server.engine.embeddedServer
 import io.ktor.server.netty.Netty
+import main.kotlin.DatabaseFactory
 import org.koin.Logger.slf4jLogger
 import org.koin.ktor.ext.Koin
 
@@ -44,6 +45,8 @@ fun Application.main() {
     install(ContentNegotiation) {
         jacksonConfig()
     }
+
+    DatabaseFactory.init()
 
     helloModule()
 }
